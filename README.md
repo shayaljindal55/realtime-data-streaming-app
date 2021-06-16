@@ -5,7 +5,6 @@ Start Kafka on Local (Windows 10) : bin/windows/kafka-server-start.bat ./config/
 Start Zookeeperfka on Local (Windows 10) : bin/windows/zookeeper-server-start.bat ./config/zookeeper.properties \
 List all Kafka topics on Local (Windows 10) : ./bin/windows/Kafka-topics.bat --list --zookeeper localhost:2181 \
 Create a topic using command line: ./kafka-topics.sh --create --zookeeper <ZOOKEEPER_URL:PORT> --replication-factor <NO_OF_REPLICATIONS> --partitions <NO_OF_PARTITIONS> --topic <TOPIC_NAME> \
-\
 
 
 In case of the below error: \
